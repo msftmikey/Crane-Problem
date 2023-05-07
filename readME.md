@@ -6,6 +6,10 @@
 **Clone This repository into your repository and implement the code, along with a document with required details mentioned at the last, a demo video, readme file and .gitignore file. Submission will be a git repo link with all the requirements updated to repo on canvas.**
 
 
+# Email: miguelmancera997@csu.fullerton.edu &  s_glover@csu.fullerton.edu
+# Member Names: 
+Miguel Mancera & Sarah Glover
+
 # To Do:
 
 # I. Create a Document with the following 
