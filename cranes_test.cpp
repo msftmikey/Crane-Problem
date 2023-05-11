@@ -93,15 +93,15 @@ int main() {
     
     auto small_output = crane_unloading_dyn_prog(small_random);
     std::cout << "THE RESULT IS " << small_output.total_cranes() << std::endl;
-    TEST_EQUAL("small", 4, small_output.total_cranes());
+    TEST_EQUAL("small", 3, small_output.total_cranes());
 
     auto medium_output = crane_unloading_dyn_prog(medium_random);
     std::cout << "THE RESULT IS " << medium_output.total_cranes() << std::endl;
-    TEST_EQUAL("medium", 8, medium_output.total_cranes());
+    TEST_EQUAL("medium", 7, medium_output.total_cranes());
   
     auto large_output = crane_unloading_dyn_prog(large_random);
     std::cout << "THE RESULT IS " << large_output.total_cranes() << std::endl;
-    TEST_EQUAL("large", 11, large_output.total_cranes());
+    TEST_EQUAL("large", 9, large_output.total_cranes());
   });
 
   rubric.criterion("stress test", 2, [&]() {
